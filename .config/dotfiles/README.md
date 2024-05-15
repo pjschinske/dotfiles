@@ -8,7 +8,7 @@ This dotfile setup is pretty common:
 
 Clone the repository:
 ```
-mkdir $/.config/dotfiles
+mkdir $HOME/.config/dotfiles
 git clone --bare --recurse-submodules git@github.com:pjschinske/dotfiles.git $HOME/.config/dotfiles
 ```
 
