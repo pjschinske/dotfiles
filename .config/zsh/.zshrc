@@ -19,3 +19,10 @@ alias dotfiles='git --git-dir=$HOME/.config/dotfiles --work-tree=$HOME'
 export PROMPT="Arch %~> "
 
 setopt AUTO_CD
+setopt AUTO_NAME_DIRS
+setopt HIST_IGNORE_DUPS
+setopt LIST_TYPES
+setopt NO_LIST_BEEP
+
+autoload -Uz zcalc
+
