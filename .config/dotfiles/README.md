@@ -1,8 +1,8 @@
 # Dotfiles
 
 This dotfile setup is pretty common:
-https://mitxela.com/projects/dotfiles_management
-https://news.ycombinator.com/item?id=11071754
+- https://mitxela.com/projects/dotfiles_management
+- https://news.ycombinator.com/item?id=11071754
 
 ## Installation
 
