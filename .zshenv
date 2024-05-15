@@ -5,6 +5,9 @@ export XDG_CACHE_HOME="$XDG_CONFIG_HOME/cache"
 export EDITOR="nvim"
 export VISUAL="nvim"
 
+alias view="vim"
+export READNULLCMD="less"
+
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export HISTFILE="$ZDOTDIR/.zhistory"
 export HISTSIZE=10000

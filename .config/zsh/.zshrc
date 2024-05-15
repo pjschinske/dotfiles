@@ -11,7 +11,7 @@ compinit
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
-
+alias view="vim"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias dotfiles='git --git-dir=$HOME/.config/dotfiles --work-tree=$HOME'
