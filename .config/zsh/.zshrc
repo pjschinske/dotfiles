@@ -26,3 +26,5 @@ setopt NO_LIST_BEEP
 
 autoload -Uz zcalc
 
+# must be at end
+source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
