@@ -16,7 +16,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias dotfiles='git --git-dir=$HOME/.config/dotfiles --work-tree=$HOME'
 
-export PROMPT="Arch %~> "
+export PROMPT="%~%(!.#.>) "
 
 setopt AUTO_CD
 setopt AUTO_NAME_DIRS
