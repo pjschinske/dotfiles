@@ -21,3 +21,8 @@ Configure the local dotfiles repo to not show untracked files in `dotfiles statu
 ```
 dotfiles config --local status.showUntrackedFiles no
 ```
+
+Configure the upstream branch to allow usage of `dotfiles push` without any more arguments:
+```
+dotfiles push --set-upstream origin main
+```
