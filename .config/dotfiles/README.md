@@ -10,7 +10,7 @@ Clone the repository:
 ```
 mkdir $HOME/.config/dotfiles
 git clone --bare --recurse-submodules git@github.com:pjschinske/dotfiles.git $HOME/.config/dotfiles
-git --git-dir=$HOME/.config/dotfiles --work-tree=$HOME
+git --git-dir=$HOME/.config/dotfiles --work-tree=$HOME checkout
 ```
 
 Reload shell.
