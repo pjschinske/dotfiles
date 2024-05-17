@@ -10,6 +10,7 @@ Clone the repository:
 ```
 mkdir $HOME/.config/dotfiles
 git clone --bare --recurse-submodules git@github.com:pjschinske/dotfiles.git $HOME/.config/dotfiles
+git --git-dir=$HOME/.config/dotfiles --work-tree=$HOME checkout
 ```
 
 Reload shell.
@@ -19,4 +20,9 @@ Reload shell.
 Configure the local dotfiles repo to not show untracked files in `dotfiles status` or `dotfiles log`:
 ```
 dotfiles config --local status.showUntrackedFiles no
+```
+
+Configure the upstream branch to allow usage of `dotfiles push` without any more arguments:
+```
+dotfiles push --set-upstream origin main
 ```
