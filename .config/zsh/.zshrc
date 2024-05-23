@@ -18,7 +18,7 @@ export CLICOLOR=1
 alias grep='grep --color=auto'
 alias dotfiles='git --git-dir=$HOME/.config/dotfiles --work-tree=$HOME'
 
-source ./set_prompt_id.zsh
+source ./.zshrc_system_specific.zsh
 export PROMPT="${PROMPT_ID} %~%(!.#.>) "
 
 setopt AUTO_CD
