@@ -1,2 +1,2 @@
-PROMPT_ID=""
+PROMPT_ID="bsd"
 
